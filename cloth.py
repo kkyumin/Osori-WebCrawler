@@ -11,7 +11,7 @@ class TshirtsCrawler(scrapy.Spider):
             if tshirt == " ":
                 continue
             print repr(tshirt).decode('raw_unicode_escape')
-            #print response.css(query_homeplaya).extract():
+            #print response.css(query_homeplaya).extract()::
 
 class BajiCrawler(scrapy.Spider):
     name = 'Baji Crawler'
